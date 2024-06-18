@@ -1,0 +1,33 @@
+.div {
+    width: 800px;
+    display: flex;
+    justify-content: space-between; /* This will create space between the items */
+    align-items: center;
+    margin-left: 250px;
+    gap: 20px; /* Adjust the value to set the space between the images */
+}
+
+.div img {
+    /* Optional: You can add styles for the images if needed */
+    max-width: 60%; /* Ensures the images are responsive */
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Oliver', 'Helvetica', 'Arial', sans-serif;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #828886;
+}
+h2 {
+    justify-content: center;
+    margin: 30px;
+    font-family: 'Oliver', 'Helvetica', 'Arial', sans-serif;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #828886;
+}
+    body{
+        background-image: url(1.jpg);
+
+    }
